@@ -72,7 +72,7 @@ ${formData.notes ? `*Additional Notes:*\n${formData.notes}` : ''}
 
     // Encode message for WhatsApp URL
     const encodedMessage = encodeURIComponent(message);
-    const whatsappNumber = '1234567890'; // Replace with actual business WhatsApp number
+    const whatsappNumber = '2348035771482';
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
     // Open WhatsApp
